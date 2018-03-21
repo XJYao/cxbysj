@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="oneRow"> 
+    <text class="usermotto">{{tempValue}}</text>
+    <text class="{{tempHidden? 'hide' : 'warnText'}}">{{tempWarn}}</text>
+  </view> 
+  <view class="oneRow"> 
+    <text class="usermotto">{{waterValue}}</text>
+    <text class="{{waterHidden? 'hide' : 'warnText'}}">{{waterWarn}}</text>
+  </view> 
+  <view class="oneRow"> 
+    <text class="usermotto">{{lightValue}}</text>
+    <text class="{{lightHidden? 'hide' : 'warnText'}}">{{lightWarn}}</text>
+  </view> 
+  <view class="oneRow"> 
+    <text class="usermotto">{{shackValue}}</text>
+    <text class="{{shackHidden? 'hide' : 'warnText'}}">{{shackWarn}}</text>
+  </view> 
+  <view class="oneRow"> 
+    <text class="usermotto">{{smokeValue}}</text>
+    <text class="{{smokeHidden? 'hide' : 'warnText'}}">{{smokeWarn}}</text>
+  </view> 
+  <view class="oneRow"> 
+    <text class="usermotto">{{bodyValue}}</text>
+    <text class="{{bodyHidden? 'hide' : 'warnText'}}">{{bodyWarn}}</text>
+  </view> 
+
+  <text class="userButton"> 长按以下链接复制到浏览器中打开监控 </text>
+  <text class="usermotto" selectable="true"> http://192.168.199.222:8081 </text>
+   <!-- <button bindtap="openMonitor" class="userButton"> 查看监控 </button>  -->
+</view>
